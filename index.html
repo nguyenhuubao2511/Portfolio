@@ -743,53 +743,135 @@
   </div>
 </div>
 
-        <!-- BÀI 3 -->
-        <div class="project-card">
-          <div class="project-thumb">
-            <div>
-              <div class="project-num">03</div>
-              <div class="project-subject">Bài 3 · 3.4</div>
-            </div>
-          </div>
+      <!-- BÀI 3 -->
+<div class="project-card">
+  <div class="project-thumb">
+    <div>
+      <div class="project-num">03</div>
+      <div class="project-subject">Bài 3 · 3.4</div>
+    </div>
+  </div>
 
-          <div class="project-body">
-            <div class="project-meta">
-              <span class="project-badge">Nhiệm vụ 3</span>
-              <span class="project-chapter">Viết prompt hiệu quả</span>
-            </div>
+  <div class="project-body">
+    <div class="project-meta">
+      <span class="project-badge">Bài 3</span>
+      <span class="project-chapter">Bài tập 3.4: Viết prompt hiệu quả cho các tác vụ học tập</span>
+    </div>
 
-            <h3>Viết prompt hiệu quả cho các tác vụ học tập</h3>
+    <h3>Viết prompt hiệu quả cho các tác vụ học tập</h3>
 
-            <p><strong>Mục đích:</strong> Lập dàn ý thuyết trình hiệu quả</p>
-            <p><strong>Nhiệm vụ:</strong> Lập dàn ý chi tiết cho thuyết trình 15 phút về “Tác động của Trí tuệ Nhân tạo đối với Thị trường Lao động”.</p>
+    <p><strong>Mục đích:</strong> Lập dàn ý thuyết trình hiệu quả</p>
+    <p>
+      <strong>Nhiệm vụ học tập được chọn:</strong>
+      Lập dàn ý chi tiết cho một bài thuyết trình kéo dài <strong>15 phút</strong> về chủ đề
+      “<strong>Tác động của Trí tuệ Nhân tạo đối với Thị trường Lao động</strong>”.
+    </p>
 
-            <div class="project-result">
-              <strong>Prompt ban đầu (chưa tốt)</strong>
-              <span>“Làm dàn ý thuyết trình về chủ đề AI và việc làm. Dài 15 phút.”</span>
-            </div>
+    <div class="project-result">
+      <strong>1) Prompt ban đầu (chưa tốt)</strong>
+      <span></span>
+    </div>
 
-            <ul>
-              <li>Thiếu ngữ cảnh và chiều sâu</li>
-              <li>Thiếu đối tượng mục tiêu</li>
-              <li>Thiếu cấu trúc cụ thể, thời gian, dữ liệu minh họa</li>
-            </ul>
+    <p><strong>Nội dung Prompt:</strong></p>
+    <p><em>"Làm dàn ý thuyết trình về chủ đề AI và việc làm. Dài 15 phút."</em></p>
 
-            <div class="project-result">
-              <strong>Prompt đã được cải thiện (hiệu quả)</strong>
-              <span>Chỉ định vai trò chuyên gia, đối tượng, cấu trúc 5 phần (10–12 slide), phân bổ thời gian, yêu cầu dữ liệu/ví dụ và hành động chiến lược.</span>
-            </div>
+    <p><strong>Vấn đề của Prompt:</strong></p>
+    <ul>
+      <li><strong>Thiếu ngữ cảnh và chiều sâu:</strong> AI tạo dàn ý chung chung, có thể chỉ 3–4 mục (Mở đầu, Nội dung, Kết luận).</li>
+      <li><strong>Thiếu đối tượng:</strong> không biết người nghe là ai (sinh viên, chuyên gia, công chúng) → ngôn ngữ/cấp độ thông tin dễ không phù hợp.</li>
+      <li><strong>Thiếu cấu trúc cụ thể:</strong> không yêu cầu số lượng slide, phân bổ thời gian, các điểm cần nhấn mạnh.</li>
+    </ul>
 
-            <p>
-              <strong>Vì sao hiệu quả hơn:</strong> nhờ ngữ cảnh hóa + kiểm soát cấu trúc + định hướng đầu ra thành sản phẩm dùng được.
-            </p>
+    <div class="project-result">
+      <strong>2) Prompt đã được cải thiện (hiệu quả)</strong>
+      <span></span>
+    </div>
 
-            <div class="project-skills">
-              <span class="skill-chip">Prompt Engineering</span>
-              <span class="skill-chip">Role Prompting</span>
-              <span class="skill-chip">Structure Control</span>
-            </div>
-          </div>
-        </div>
+    <p><strong>Nội dung Prompt (phiên bản cải thiện):</strong></p>
+    <div class="project-result">
+      <strong>Prompt</strong>
+      <span>
+        Bạn hãy đóng vai trò là một <strong>chuyên gia tư vấn chiến lược nhân sự</strong>.<br>
+        <strong>Nhiệm vụ:</strong> Lập dàn ý chi tiết cho bài thuyết trình dài <strong>15 phút</strong> về chủ đề:
+        <strong>"Tác động của Trí tuệ Nhân tạo đối với Thị trường Lao động Việt Nam trong 5 năm tới"</strong>.<br>
+        <strong>Đối tượng mục tiêu:</strong> Ban Lãnh đạo cấp cao của một công ty công nghệ.<br><br>
+
+        <strong>Yêu cầu cấu trúc và định dạng:</strong><br>
+        1) Dàn ý phải chia thành <strong>5 phần</strong> chính (tương đương khoảng <strong>10–12 slide</strong>).<br>
+        2) Phân bổ thời gian dự kiến cho mỗi phần (tổng cộng 15 phút).<br>
+        3) Mỗi mục lớn có ít nhất <strong>3–4 điểm chi tiết</strong> (gạch đầu dòng nhỏ) kèm theo <strong>dữ liệu hoặc ví dụ minh họa</strong>
+        (ví dụ: tỷ lệ việc làm bị ảnh hưởng, các ngành nghề mới nổi).<br>
+        4) Phần kết luận phải bao gồm <strong>2 hành động chiến lược</strong> cụ thể mà Ban Lãnh đạo cần thực hiện.
+      </span>
+    </div>
+
+    <div class="project-result">
+      <strong>3) Tích hợp vào Portfolio: So sánh kết quả &amp; giải thích</strong>
+      <span></span>
+    </div>
+
+    <p><strong>So sánh kết quả đầu ra</strong></p>
+    <ul>
+      <li>
+        <strong>Prompt ban đầu:</strong> tạo ra dàn ý sơ sài, ví dụ:
+        <ul>
+          <li>I. Mở đầu (Giới thiệu AI)</li>
+          <li>II. Ảnh hưởng Tích cực</li>
+          <li>III. Ảnh hưởng Tiêu cực</li>
+          <li>IV. Kết luận (Tóm tắt chung chung)</li>
+        </ul>
+        <em>Không có thời gian phân bổ, không có chi tiết cụ thể, không có định hướng chiến lược.</em>
+      </li>
+
+      <li>
+        <strong>Prompt cải thiện:</strong> tạo ra dàn ý chi tiết và có tính ứng dụng cao, ví dụ:
+        <ul>
+          <li><strong>Phần 1: Khởi động (2 phút):</strong> Đặt vấn đề và Mục tiêu thuyết trình (kèm thống kê lao động làm việc lặp lại).</li>
+          <li><strong>Phần 2: Thách thức – Tự động hóa (4 phút):</strong> 3 ngành chịu ảnh hưởng tiêu cực nhất (ví dụ: data entry, back-office bị thay thế).</li>
+          <li><strong>Phần 3: Cơ hội – Nhu cầu mới (4 phút):</strong> kỹ năng &amp; vị trí mới (ví dụ: Kỹ sư Prompt, Chuyên gia Đạo đức AI).</li>
+          <li><strong>Phần 4: Kịch bản Hành động (3 phút):</strong> đề xuất 3 chiến lược đào tạo và tái cơ cấu nhân sự.</li>
+          <li><strong>Phần 5: Hỏi &amp; Đáp + Kết luận (2 phút):</strong> Hành động chiến lược 1 (ví dụ: phân bổ ngân sách 20% cho Upskilling Quý 1), hành động chiến lược 2.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="project-result">
+      <strong>4) Giải thích tại sao phiên bản cải thiện hiệu quả hơn</strong>
+      <span></span>
+    </div>
+
+    <p>
+      Phiên bản cải thiện hiệu quả hơn nhờ áp dụng nguyên tắc <strong>ngữ cảnh hóa</strong>, biến AI từ công cụ tạo văn bản chung chung thành
+      một <strong>cố vấn chuyên môn</strong> có định hướng rõ ràng:
+    </p>
+
+    <ol>
+      <li>
+        <strong>Chỉ định vai trò chuyên gia:</strong> “chuyên gia tư vấn chiến lược nhân sự” giúp đầu ra không chỉ là thông tin mà còn là
+        <strong>kiến nghị chiến lược</strong>.
+      </li>
+      <li>
+        <strong>Xác định đối tượng mục tiêu:</strong> “Ban Lãnh đạo cấp cao” buộc AI ưu tiên <strong>số liệu</strong>, <strong>tác động kinh doanh</strong> và
+        <strong>giải pháp hành động</strong>.
+      </li>
+      <li>
+        <strong>Kiểm soát thời gian và chiều sâu:</strong> yêu cầu 15 phút, 5 phần, 10–12 slide + dữ liệu minh họa giúp nội dung có căn cứ thực tế
+        và dùng được ngay.
+      </li>
+    </ol>
+
+    <p>
+      <strong>Tóm lại:</strong> prompt hiệu quả là prompt <strong>thiết lập ranh giới</strong> và <strong>định hướng kết quả</strong>,
+      biến đầu ra AI thành một sản phẩm có thể sử dụng ngay cho mục đích học tập/chuyên môn.
+    </p>
+
+    <div class="project-skills">
+      <span class="skill-chip">Prompt Engineering</span>
+      <span class="skill-chip">Critical Thinking</span>
+      <span class="skill-chip">Structure Control</span>
+    </div>
+  </div>
+</div>
 
         <!-- BÀI 4 -->
         <div class="project-card">
