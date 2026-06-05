@@ -510,39 +510,53 @@
   </div>
 </div>
 
-      <div style="margin-top:3rem">
-        <div class="section-label">Mục tiêu</div>
-        <div class="goals-grid">
-          <div class="goal-card">
-            <div class="goal-icon">🎯</div>
-            <h4>Mục tiêu học tập và định hướng cá nhân</h4>
-            <p>
-              Là sinh viên, em đặt mục tiêu học tập là nắm vững kiến thức chuyên môn, rèn luyện kỹ năng cần thiết và đạt kết quả tốt.
-              Bên cạnh đó, em chú trọng phát triển kỹ năng mềm và tích lũy kinh nghiệm thực tế để chuẩn bị cho công việc sau khi tốt nghiệp.
-              Về định hướng cá nhân, em mong muốn tìm được công việc phù hợp với ngành học và có cơ hội phát triển bản thân lâu dài.
-            </p>
-          </div>
+      <div style="margin-top:3rem;">
+  <div class="section-label">Mục tiêu</div>
 
-          <div class="goal-card">
-            <div class="goal-icon">📂</div>
-            <h4>Mục tiêu của Portfolio</h4>
-            <p>
-              Mục tiêu của Portfolio này là tổng hợp và trình bày các kiến thức, kỹ năng và sản phẩm học tập của em trong môn
-              Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo. Portfolio giúp hệ thống hóa quá trình học tập, thể hiện khả năng
-              ứng dụng công nghệ số và công cụ AI, đồng thời là cơ sở để phát triển kỹ năng phục vụ cho học tập và công việc sau này.
-            </p>
-          </div>
+  <!-- CSS inline để 3 thẻ nằm ngang -->
+  <div class="goals-grid" style="
+    display:grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    gap:1.5rem;
+    align-items:stretch;
+  ">
+    <div class="goal-card">
+      <div class="goal-icon">🎯</div>
+      <h4>Mục tiêu học tập và định hướng cá nhân</h4>
+      <p>
+        Là sinh viên, em đặt mục tiêu học tập là nắm vững kiến thức chuyên môn, rèn luyện kỹ năng cần thiết và đạt kết quả tốt.
+        Bên cạnh đó, em chú trọng phát triển kỹ năng mềm và tích lũy kinh nghiệm thực tế để chuẩn bị cho công việc sau khi tốt nghiệp.
+        Về định hướng cá nhân, em mong muốn tìm được công việc phù hợp với ngành học và có cơ hội phát triển bản thân lâu dài.
+      </p>
+    </div>
 
-          <div class="goal-card">
-            <div class="goal-icon">🧭</div>
-            <h4>Định hướng phát triển</h4>
-            <p>
-              Phát triển tư duy học tập số: tổ chức tài liệu khoa học, tìm kiếm thông tin có kiểm chứng, và sử dụng AI đúng mục đích – đúng đạo đức
-              trong môi trường học thuật.
-            </p>
-          </div>
-        </div>
-      </div>
+    <div class="goal-card">
+      <div class="goal-icon">📂</div>
+      <h4>Mục tiêu của Portfolio</h4>
+      <p>
+        Mục tiêu của Portfolio này là tổng hợp và trình bày các kiến thức, kỹ năng và sản phẩm học tập của em trong môn
+        Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo. Portfolio giúp hệ thống hóa quá trình học tập, thể hiện khả năng
+        ứng dụng công nghệ số và công cụ AI, đồng thời là cơ sở để phát triển kỹ năng phục vụ cho học tập và công việc sau này.
+      </p>
+    </div>
+
+    <div class="goal-card">
+      <div class="goal-icon">🧭</div>
+      <h4>Định hướng phát triển</h4>
+      <p>
+        Phát triển tư duy học tập số: tổ chức tài liệu khoa học, tìm kiếm thông tin có kiểm chứng, và sử dụng AI đúng mục đích – đúng đạo đức
+        trong môi trường học thuật.
+      </p>
+    </div>
+  </div>
+
+  <!-- Responsive: màn hình nhỏ thì xuống 1 cột -->
+  <style>
+    @media (max-width: 900px){
+      .goals-grid{ grid-template-columns: 1fr !important; }
+    }
+  </style>
+</div>
 
     </div>
   </section>
